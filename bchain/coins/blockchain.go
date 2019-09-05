@@ -99,6 +99,7 @@ func init() {
 	BlockChainFactories["Ravencoin"] = ravencoin.NewRavencoinRPC
 	BlockChainFactories["Ritocoin"] = ritocoin.NewRitocoinRPC
 	BlockChainFactories["Divi"] = divi.NewDiviRPC
+	BlockChainFactories["SnowGem"] = zec.NewZCashRPC
 }
 
 // GetCoinNameFromConfig gets coin name and coin shortcut from config file
